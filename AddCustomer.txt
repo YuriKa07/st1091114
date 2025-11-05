@@ -1,0 +1,23 @@
+'' **************************************************************
+'' FILENAME: addcustomer3_ki
+'' **************************************************************
+'' ABOUT 
+'' AUTHOR:  	Name/Company
+'' --------		-----------------------------------------
+'' KI 			Yuri K / Higher Technologies
+'' REVISION HISTORY:
+'' Date/Initials	Comments
+'' --------------	-----------------------------------------
+'' 02/27/2025  KI	Created for LoanApp 3.1
+''---------------   ---------------------------------------------
+''SCRIPT
+'----------------------------------------------------------------
+'' Valid input
+AddCustomer "9990011", "New", "Nom", "999 Oak St", "Hope", "Alberta", "T0T8T8", "(888)788-1234", "firefox@abc.com"
+
+''Invalid input - missing account #
+AddCustomer " ", "No", "Number", "999 Oak St", "Hope", "Alberta", "T0T8T8", "(888)788-1234", "fox@abc.com"
+''Invalid input - missing First name
+AddCustomer "9990022", "", "Nofirst", "222 Oak St", "Hope", "Alberta", "T0T8T8", "(888)788-1234", "fire@abcde.com"
+''Invalid input - missing last name
+AddCustomer "9990033", "Nolast", "", "333 Oak St", "Hope", "Alberta", "T0T8T8", "(888)788-1234", "reox@abc.com"
