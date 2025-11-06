@@ -18,6 +18,7 @@ AddCustomer "9990011", "New", "Nom", "999 Oak St", "Hope", "Alberta", "T0T8T8", 
 AddCustomer "9999912", "AB", "BA", "111Alta Av", "Queen Place", "Alberta", "T0T1T1", "(888)788-4567", "abba@abba.com"
 AddCustomer "9999913", "Mick", "Dundee", "777Croc St", "Thornhill", "Ontario", "T7T7T7", "(888)788-7777", "mickcroc@nortaus.com"
 AddCustomer "9990014", "Fire", "Fox", "123 Flame St", "Hope", "Alberta", "T5T5T8", "(888)899-1234", "firefox@abc.com"
+AddCustomer "9990015", "Neo", "River", "123 River St", "Hope", "Alberta", "T5T9T8", "(888)899-1234", "nriver@abc.com"
 
 ''Invalid input - missing account #
 AddCustomer " ", "No", "Number", "999 Oak St", "Hope", "Alberta", "T0T8T8", "(888)788-1234", "fox@abc.com"
