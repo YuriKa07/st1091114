@@ -12,6 +12,7 @@
 ''---------------   ---------------------------------------------
 ''SCRIPT
 '----------------------------------------------------------------
+'' To test new ideas
 '' Valid input
 AddCustomer "9990011", "New", "Nom", "999 Oak St", "Hope", "Alberta", "T0T8T8", "(888)788-1234", "firefox@abc.com"
 AddCustomer "9999912", "AB", "BA", "111Alta Av", "Queen Place", "Alberta", "T0T1T1", "(888)788-4567", "abba@abba.com"
