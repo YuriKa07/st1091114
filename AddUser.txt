@@ -16,15 +16,13 @@
 
 '' 01/10/2024  rw	Created for LoanApp 3.1
 
-
-
 ''SCRIPT
 
 ''Valid input
 AddUser "psmith", "password123", "Peter", "Smith", "ABC", "(416)456-0000", "jsmith@sample.com", "Loan Officer"
 
 ''Invalid input - invalid email
-AddUser "psmith", "password123", "Peter", "Smith", "ABC", "(416)456-0000", "jsmith-sample.com", "Loan Officer"
+AddUser "psmith", "password123", "Peter", "Smith", "ABC", "(416)456-0000", "jsmith_sample.com", "Loan Officer"
 
 ''Invalid input - missing Username
 AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
